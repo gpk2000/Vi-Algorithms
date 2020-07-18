@@ -19,7 +19,7 @@ function setup() {
 	shuffleArr(values);
 	run_button = createButton('Run Insertion-Sort');
 	reset_button = createButton('Reset');
-	slider = createSlider(0, 120, 10, 10);
+	slider = createSlider(5, 120, 10, 10);
 	slider.position(130, 0);
 	slider.style('width', '80px');
 	run_button.position(0, 0);
